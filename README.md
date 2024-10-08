@@ -27,5 +27,7 @@ Or you can run them as cronjobs to run automatically at a specified interval
 user$ crontab -e
 
 */5 * * * * cd /path/to/files/ && ./url-traffic.sh shuffled-url-list.txt
+
 */10 * * * * cd /path/to/files/ && ./amp-traffic.sh amp-url-list.txt
+
 */3 * * * * cd /path/to/files/ping.sh
